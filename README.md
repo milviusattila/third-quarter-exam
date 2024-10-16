@@ -125,6 +125,15 @@ The `id` is created in the backend.
 
 The forms `submit` event should make a **post** request to the `/api/data/new` endpoint, with the new data attached in the requests body.
 
+Example request body:
+```
+{
+  name: "Márta Richárd",
+  age: 29,
+  pets: ["Sedó", "Nyafi"]
+}
+```
+
 **Make sure to collect all the required data in the correct type, or the server will return a bad status code.**
 
 After the server responded with an OK, you should update the DOM, created from the updated content of the `data.json`.

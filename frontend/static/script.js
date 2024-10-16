@@ -1,0 +1,1 @@
+document.querySelector("#root").innerHTML = "website is loaded, you can delete this from the code"

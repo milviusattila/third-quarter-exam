@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Gipsz Jakab",
+    "age": 26,
+    "pets": [
+      "Cirmi",
+      "Kormi"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Kovács Pista",
+    "age": 49,
+    "pets": [
+      "Bolhás"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Com Truise",
+    "age": 34,
+    "pets": []
+  },
+  {
+    "id": 4,
+    "name": "Ben Dover",
+    "age": 55,
+    "pets": [
+      "Bandi",
+      "Ördög",
+      "Kismacska"
+    ]
+  }
+]

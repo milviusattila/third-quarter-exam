@@ -83,7 +83,7 @@ We can say that a candidate is a good partner, if:
   - they share the same favorite genre with the customer
   - they have at least one common hobby
 
-The return value of the function should be an `element` of the candidates array, of `null` if no good candidates can be found.
+The return value of the function should be an `element` of the candidates array, or `null` if no good candidates can be found.
 
 ---
 

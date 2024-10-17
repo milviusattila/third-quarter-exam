@@ -14,7 +14,7 @@
 
 
 const parodyString = require('./parodyString')
-const palindromArray = require('./palindromeArray')
+const palindromeArray = require('./palindromeArray')
 const findPartner = require('./findPartner')
 
 const it = (desc, fn) => {
@@ -46,21 +46,23 @@ it('should work with mixed param string', () => {
 
 console.log('\npalindromeArray:')
 it('should return true with one element array', () => {
-  assert(palindromArray(["test"]) === true)
+  assert(palindromeArray(["test"]) === true)
 })
 it('should return true when the two elements are same', () => {
-  assert(palindromArray(["test", "test"]) === true)
+  assert(palindromeArray(["test", "test"]) === true)
 })
 it('should return false when the two elements are different', () => {
-  assert(palindromArray(["code", "cool"]) === false)
+  assert(palindromeArray(["code", "cool"]) === false)
 })
 it('should work with an even number of elements', () => {
-  assert(palindromArray(["one", "two", "two", "one"]) === true)
-  assert(palindromArray(["one", "two", "three", "four"]) === false)
+  assert(palindromeArray(["one", "two", "two", "one"]) === true)
+  assert(palindromeArray(["one", "two", "three", "four"]) === false)
+  assert(palindromeArray(["one", "two", "three", "one"]) === false)
 })
 it('should work with an odd number of elements', () => {
-  assert(palindromArray(["one", "two", "three", "four", "five"]) === false)
-  assert(palindromArray(["one", "two", "three", "two", "one"]) === true)
+  assert(palindromeArray(["one", "two", "three", "four", "five"]) === false)
+  assert(palindromeArray(["one", "two", "three", "two", "one"]) === true)
+  assert(palindromeArray(["one", "two", "three", "four", "one"]) === false)
 })
 
 const customer = {

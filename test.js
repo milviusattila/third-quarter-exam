@@ -58,11 +58,13 @@ it('should work with an even number of elements', () => {
   assert(palindromeArray(["one", "two", "two", "one"]) === true)
   assert(palindromeArray(["one", "two", "three", "four"]) === false)
   assert(palindromeArray(["one", "two", "three", "one"]) === false)
+  assert(palindromeArray(["one", "two", "two", "four"]) === false)
 })
 it('should work with an odd number of elements', () => {
   assert(palindromeArray(["one", "two", "three", "four", "five"]) === false)
   assert(palindromeArray(["one", "two", "three", "two", "one"]) === true)
   assert(palindromeArray(["one", "two", "three", "four", "one"]) === false)
+  assert(palindromeArray(["one", "two", "three", "two", "five"]) === false)
 })
 
 const customer = {

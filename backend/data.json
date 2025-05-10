@@ -34,26 +34,19 @@
   },
   {
     "id": 5,
-    "name": "ja",
-    "age": 10,
+    "name": "Jonathan Davis",
+    "age": 54,
     "pets": [
-      "ja"
+      "Korn"
     ]
   },
   {
     "id": 6,
-    "name": "ja",
-    "age": 10,
+    "name": "Fred Durst",
+    "age": 54,
     "pets": [
-      "ja"
-    ]
-  },
-  {
-    "id": 7,
-    "name": "ja",
-    "age": 10,
-    "pets": [
-      "ja"
+      "Limp",
+      "Bizkit"
     ]
   }
 ]
